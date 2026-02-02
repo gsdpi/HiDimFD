@@ -3,6 +3,14 @@ function [f1s,fh,ppv,MCC] = fd_perf_metrics(f,fe,fthres)
 %   function [f1s,fh,ppv,MMC] = fd_perf_mtrics(f,fe)
 %
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 fs = (f~=0);        % Assume that the fault has actual zero components
 fes = (abs(fe)>fthres);
 TP = sum(fs & fes);

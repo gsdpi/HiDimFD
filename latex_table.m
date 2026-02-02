@@ -2,6 +2,14 @@ function latex_table(fname,dat,head,form,form_type,align,hline,ndline)
 
 % latex_table(dat,head,form,form_type)
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 [m,n]=size(dat);
 
 f=fopen(fname,'w');

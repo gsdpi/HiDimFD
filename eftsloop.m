@@ -1,3 +1,17 @@
+% eftsloop:
+%	Run this script to generate the simulations in Section III
+%
+% Title:
+%	Generation of Interpretable Residuals for Fault Diagnosis based on
+%	Projection Techniques: Leveraging Variable Redundancy
+% Authors:
+%	Abel Alberto Cuadrado Vega, Ignacio Díaz Blanco, José María Enguita González,
+%	Diego García Pérez and Ana González Muñiz
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 % Loops evalfaultestim
 hFHR=figure;
 hF1score=figure;

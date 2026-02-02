@@ -10,6 +10,14 @@ function [f,fsig]=randaddfault(n,a,normalized)
 %		fsig: fault signature [only if "a" is specified]
 %
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 if nargin<3
 	normalized=0;
 end

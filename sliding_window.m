@@ -9,6 +9,14 @@ function [xev,K]=sliding_window(x,tamano,solap,ventana)
 %       ventana:    ponderacion de cada elemento dentro de la ventana
 %                   cuando se omite es 1 para todos (v. rectangular)
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 n=length(x);
 delta=tamano-round(solap*tamano);
 numtramos=floor((n-tamano)/delta)+1;

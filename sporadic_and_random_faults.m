@@ -1,7 +1,23 @@
+% sporadic_and_random_faults:
+%	Set the value of the variable "fault_type" below
+%	Run this script to generate the results of the experiments in Section IV
+%
+% Title:
+%	Generation of Interpretable Residuals for Fault Diagnosis based on
+%	Projection Techniques: Leveraging Variable Redundancy
+% Authors:
+%	Abel Alberto Cuadrado Vega, Ignacio Díaz Blanco, José María Enguita González,
+%	Diego García Pérez and Ana González Muñiz
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 % Sporadic and random faults (dataicann)
 printaspdf=0;
 
 % Load data: http://hdl.handle.net/10651/53461
+% Alternative: https://digibuo.uniovi.es/dspace/handle/10651/53461
 load dataicann.mat
 
 y=z{3};			% Only the third condition (normal operation)

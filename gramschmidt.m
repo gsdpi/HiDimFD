@@ -3,6 +3,14 @@ function U=gramschmidt(V,Upart)
 % U=gramschmidt(V,Upart)
 %
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 n=size(V,2);
 if nargin==2
 	U=Upart;

@@ -4,6 +4,14 @@ function spe_rbc=mspc_pca_spe_rbc(PCApar,X,normalize)
 %
 %
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 % Alcala09
 
 if nargin<3

@@ -9,6 +9,14 @@ function [U,x0]=randaffinespace(n,d)
 %		x0: affine space origin
 %
 
+%
+% Author:
+%	Abel Alberto Cuadrado Vega
+%
+% 	Grupo de Supervisión, Diagnóstico y Descubrimiento de Conocimiento en Procesos de Ingeniería
+% 	(c) Universidad de Oviedo, 2023-2026
+%
+
 x0=randn(n,1);			% Affine space origin
 V=[];
 while(rank(V)~=d)
