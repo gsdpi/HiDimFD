@@ -11,6 +11,9 @@
 ### Requirements
 [SR3 MATLAB Toolbox ](https://github.com/UW-AMO/sr3-matlab)
 
+### Dataset
+[Dataicann: vibration and current data of an induction motor ](https://digibuo.uniovi.es/dspace/handle/10651/53461)
+
 ### Usage
 - Simulations in Section III:
 
