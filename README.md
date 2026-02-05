@@ -14,6 +14,8 @@
 ### Dataset
 [Dataicann: vibration and current data of an induction motor ](https://digibuo.uniovi.es/dspace/handle/10651/53461)
 
+Download the **dataicann.zip** archive and place the contained **dataicann.mat** file in the directory with the scripts (only needed for `sporadic_and_random_faults`).
+
 ### Usage
 - Simulations in Section III:
 
