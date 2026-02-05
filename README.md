@@ -9,7 +9,7 @@
 ---
 
 ### Requirements
-Statistics and Machine Learning MATLAB Toolbox
+[Statistics and Machine Learning MATLAB Toolbox ](https://www.mathworks.com/products/statistics.html)
 
 [SR3 MATLAB Toolbox ](https://github.com/UW-AMO/sr3-matlab)
 
